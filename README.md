@@ -1,7 +1,7 @@
 ------------------------
 Purpose of matmul-sgx
 ------------------------
-This project consists of a parallel and secure version of the multiplication multiplication problem. I performes the multiplication of two matrices (A and B) into a third one (C). Parallelization is achived using OmpSs Programming Model and security is assured by means of Intel SGX.
+This project consists of a parallel and secure version of the multiplication multiplication problem. I performes the multiplication of two matrices (A and B) into a third one (C). Parallelization is achived using [OmpSs Programming Model](https://pm.bsc.es/ompss) and security is assured by means of [Intel SGX](https://software.intel.com/en-us/sgx/sdk).
 
 ------------------------------------
 How to Build/Execute
