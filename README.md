@@ -37,9 +37,15 @@ How to Build/Execute
     6. Simulation Mode, Release build:
         ```
         $ make SGX_MODE=SIM SGX_DEBUG=0
-        ```
+        ```    
 5. Execute the binary directly:
-    ```
-    $ ./app
-    ```
+    1. Sequential execution:
+        ```
+        $ OMP_NUM_THREADS=1 ./app
+        ```
+    2. Parallel execution:
+        ```
+        $ export n=number_of_threads
+        $ OMP_NUM_THREADS=$n ./app
+        ```
 6. Remember to "make clean" before switching build mode
