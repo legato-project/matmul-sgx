@@ -9,8 +9,10 @@ How to Build/Execute
 1. Install OmpSs
 2. Install Intel(R) SGX SDK for Linux* OS
 3. Make sure your environment is set:
-    $ export TARGET=$HOME/ompss
-    $ source ${sgx-sdk-install-path}/environment
+```
+export TARGET=$HOME/ompss
+source ${sgx-sdk-install-path}/environment
+```
 4. Build the project with the prepared Makefile:
     a. Hardware Mode, Debug build:
         $ make
